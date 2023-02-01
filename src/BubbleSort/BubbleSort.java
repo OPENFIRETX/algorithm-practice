@@ -1,6 +1,6 @@
 package BubbleSort;
 
-import algorithm.Swap;
+import utils.Swap;
 
 import java.util.Arrays;
 

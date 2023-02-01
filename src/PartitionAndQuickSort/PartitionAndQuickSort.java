@@ -1,6 +1,6 @@
 package PartitionAndQuickSort;
 
-import algorithm.Swap;
+import utils.Swap;
 
 public class PartitionAndQuickSort {
     public static void process3(int[] arr, int L, int R) {
