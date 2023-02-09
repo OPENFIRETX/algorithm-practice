@@ -85,7 +85,7 @@ public class TrieTree {
                 for (int i = 0; i < str.length; i++) {
                     path = str[i] - 'a';
                     if (--nodePointer.nexts[path].pass == 0) {
-                        nodePointer.nexts[path] = null;
+                         nodePointer.nexts[path] = null;
                         return;
                     }
                     nodePointer = nodePointer.nexts[path];
